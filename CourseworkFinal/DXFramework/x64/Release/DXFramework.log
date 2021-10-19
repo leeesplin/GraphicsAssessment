@@ -1,0 +1,43 @@
+﻿  AModel.cpp
+  BaseApplication.cpp
+  BaseMesh.cpp
+  BaseShader.cpp
+  BillboardPointMesh.cpp
+  Camera.cpp
+  CubeMesh.cpp
+  D3D.cpp
+  FlagMesh.cpp
+  FPCamera.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  Input.cpp
+  Light.cpp
+  Model.cpp
+  OrthoMesh.cpp
+  PlaneMesh.cpp
+d:\gitstuff\cmp301-coursework-leeesplin\courseworkfinal\dxframework\planemesh.cpp(273): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\gitstuff\cmp301-coursework-leeesplin\courseworkfinal\dxframework\planemesh.cpp(281): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\gitstuff\cmp301-coursework-leeesplin\courseworkfinal\dxframework\planemesh.cpp(302): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Compiling...
+  PointMesh.cpp
+  QuadMesh.cpp
+  RenderTexture.cpp
+  ShadowMap.cpp
+  SkyboxMesh.cpp
+  SphereMesh.cpp
+  System.cpp
+  TessellationMesh.cpp
+d:\gitstuff\cmp301-coursework-leeesplin\courseworkfinal\dxframework\tessellationmesh.cpp(188): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\gitstuff\cmp301-coursework-leeesplin\courseworkfinal\dxframework\tessellationmesh.cpp(196): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\gitstuff\cmp301-coursework-leeesplin\courseworkfinal\dxframework\tessellationmesh.cpp(217): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  TextureManager.cpp
+  Timer.cpp
+  TokenStream.cpp
+  TriangleMesh.cpp
+SkyboxMesh.obj : warning LNK4006: "protected: virtual void __cdecl SkyboxMesh::initBuffers(struct ID3D11Device *)" (?initBuffers@SkyboxMesh@@MEAAXPEAUID3D11Device@@@Z) already defined in SkyboxMesh.obj; second definition ignored
+SkyboxMesh.obj : warning LNK4006: "public: __cdecl SkyboxMesh::~SkyboxMesh(void)" (??1SkyboxMesh@@QEAA@XZ) already defined in SkyboxMesh.obj; second definition ignored
+SkyboxMesh.obj : warning LNK4006: "public: __cdecl SkyboxMesh::SkyboxMesh(struct ID3D11Device *,struct ID3D11DeviceContext *,int)" (??0SkyboxMesh@@QEAA@PEAUID3D11Device@@PEAUID3D11DeviceContext@@H@Z) already defined in SkyboxMesh.obj; second definition ignored
+  DXFramework.vcxproj -> D:\GitStuff\cmp301-coursework-leeesplin\CourseworkFinal\lib\Release\DXFramework.lib

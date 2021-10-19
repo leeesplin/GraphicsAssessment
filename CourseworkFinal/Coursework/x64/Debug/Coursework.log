@@ -1,0 +1,9 @@
+﻿  compilation object save succeeded; see D:\Documents\Uni Backup Final\Graphics\CourseworkFInalFinal\CourseworkFinal\Coursework\DOFblur_ps.cso
+  App1.cpp
+d:\documents\uni backup final\graphics\courseworkfinalfinal\courseworkfinal\coursework\app1.cpp(85): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\documents\uni backup final\graphics\courseworkfinalfinal\courseworkfinal\coursework\app1.cpp(86): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\documents\uni backup final\graphics\courseworkfinalfinal\courseworkfinal\coursework\app1.cpp(217): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\documents\uni backup final\graphics\courseworkfinalfinal\courseworkfinal\coursework\app1.cpp(265): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\documents\uni backup final\graphics\courseworkfinalfinal\courseworkfinal\coursework\app1.cpp(312): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\documents\uni backup final\graphics\courseworkfinalfinal\courseworkfinal\coursework\app1.cpp(388): warning C4305: 'argument': truncation from 'double' to 'float'
+  Coursework.vcxproj -> D:\Documents\Uni Backup Final\Graphics\CourseworkFInalFinal\CourseworkFinal\x64\Debug\Coursework.exe

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\BillboardShaderFiles">
+      <UniqueIdentifier>{d5138bc4-7b5a-4c23-8d89-63a3fa2f72c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BlurShaderFiles">
+      <UniqueIdentifier>{4cedf088-ad26-4a25-8ca0-a8c50c0141a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DepthShaderFiles">
+      <UniqueIdentifier>{d88cdd35-4c4d-4742-95ed-e6b4ecddde68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FlagManipulationShaderFiles">
+      <UniqueIdentifier>{703a42da-3eaa-4c7d-a1a8-5afbe1bf6037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\HeightMapShaderFiles">
+      <UniqueIdentifier>{d06ab92a-b9f4-4ed9-aacd-79909fe12c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LightShaderFiles">
+      <UniqueIdentifier>{5555bf3d-6106-4b65-b6aa-36794274efe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SkyboxShaderFiles">
+      <UniqueIdentifier>{5e41f933-85f1-45db-9261-5d9c6d8a3fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TessellationShaderFiles">
+      <UniqueIdentifier>{2f09ce75-f611-4f7a-8922-fb578e5638eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\WaveShaderFiles">
+      <UniqueIdentifier>{b783e915-01da-4117-a635-a6066e9130ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMapShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlagShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DOFBlurShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMapShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DOFBlurShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\billboard_vs.hlsl">
+      <Filter>Resource Files\BillboardShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\billboard_gs.hlsl">
+      <Filter>Resource Files\BillboardShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\billboard_ps.hlsl">
+      <Filter>Resource Files\BillboardShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\depth_ps.hlsl">
+      <Filter>Resource Files\DepthShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\depth_vs.hlsl">
+      <Filter>Resource Files\DepthShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\flagManipulation_ps.hlsl">
+      <Filter>Resource Files\FlagManipulationShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\flagManipulation_vs.hlsl">
+      <Filter>Resource Files\FlagManipulationShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\heightMapManipulation_ps.hlsl">
+      <Filter>Resource Files\HeightMapShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\heightMapManipulation_vs.hlsl">
+      <Filter>Resource Files\HeightMapShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\light_vs.hlsl">
+      <Filter>Resource Files\LightShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\light_ps.hlsl">
+      <Filter>Resource Files\LightShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\skybox_ps.hlsl">
+      <Filter>Resource Files\SkyboxShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\skybox_vs.hlsl">
+      <Filter>Resource Files\SkyboxShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\tessellation_ds.hlsl">
+      <Filter>Resource Files\TessellationShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\tessellation_hs.hlsl">
+      <Filter>Resource Files\TessellationShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\tessellation_ps.hlsl">
+      <Filter>Resource Files\TessellationShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\tessellation_vs.hlsl">
+      <Filter>Resource Files\TessellationShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\waveManipulation_ps.hlsl">
+      <Filter>Resource Files\WaveShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\waveManipulation_vs.hlsl">
+      <Filter>Resource Files\WaveShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DOFblur_ps.hlsl">
+      <Filter>Resource Files\BlurShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DOFblur_vs.hlsl">
+      <Filter>Resource Files\BlurShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
